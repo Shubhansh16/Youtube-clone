@@ -1,0 +1,94 @@
+.p {
+    font-family: Roboto, Arial;
+   }
+   .profile {
+     border-radius: 300px;
+     width: 40px;
+     height: 40px;
+     margin-top: 10px;
+     padding-left: 0px;
+     cursor: pointer;
+     padding-top: 0px;
+     padding-bottom: 0px;
+     padding-right: 0px;
+   }
+
+   .title {
+     margin-top: 0px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     margin-right: 0px;
+     margin-bottom: 0px;
+     padding-top: 0px;
+     cursor: pointer;
+     padding-right: 0px;
+     padding-bottom: 0px;
+   }
+
+   .container {
+     cursor: pointer;
+   
+   }
+
+  .video-info-grid {
+     display: grid;
+     grid-template-columns: 50px 1fr;
+     cursor: pointer;
+  }
+  
+  .video-grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     row-gap: 30px;
+     column-gap: 20px;
+     cursor: pointer;
+  }
+
+   .channel-name {
+     font-family: Arial, Helvetica, sans-serif;
+     cursor: pointer;
+     margin-right: 0px;
+     border-top: 0px;
+     margin-top: 5px;
+     margin-bottom: 0px;
+     padding-top: 0px;
+     cursor: pointer;
+     padding-right: 0px;
+     padding-bottom: 0px;
+     font-size: 14px;
+   }
+   .views {
+     font-size: 14px;
+     margin-right: 0px;
+     margin-top: 3px;
+     margin-bottom: 0px;
+     padding-top: 0px;
+     cursor: pointer;
+     padding-right: 0px;
+     padding-bottom: 0px;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+   .thumbnail-1 {
+     width: 100%;
+     cursor: pointer;
+     margin-top: 0px;
+     margin-left: 0px;
+     margin-right: 0px;
+   }
+   .thumbnail-1:hover {
+     border-radius: 10px;
+     transition: border-radius 0.34s;
+   }
+   .chess {
+     font-weight: bold;
+     margin-top: 12px;
+     margin-bottom: 10px;
+     border-bottom: 0px;
+     border-left: 0px;
+     border-right: 0px;
+     margin-left: 0px;
+     margin-right: 0px;
+     border-top: 0px;
+     width: 100%;
+     cursor: pointer;
+   }
