@@ -45,6 +45,24 @@
      cursor: pointer;
   }
 
+  @media (max-width: 750px) {
+    .video-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .video-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+  @media (min-width:751px) and (max-width: 999px) {
+    .video-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
    .channel-name {
      font-family: Arial, Helvetica, sans-serif;
      cursor: pointer;
